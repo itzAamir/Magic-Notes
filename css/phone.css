@@ -1,0 +1,25 @@
+h1{
+    display: inline-block;
+    width: 60vw;
+    /* border: 2px solid black; */
+}
+.container{
+    width: 98vw;
+    /* border: 2px solid black; */
+}
+#search{
+    display: none;
+}
+#add{
+    height: 2.9rem;
+    width: 50vw;
+}
+#deleteAll{
+    height: 2.9rem;
+    width: 50vw;
+}
+.note-section{
+    /* border: 2px solid black; */
+    justify-content: center;
+    height: 100vh;
+}

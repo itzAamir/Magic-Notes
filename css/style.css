@@ -1,0 +1,175 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a1a2e;
+}
+h1{
+    color: white;
+    cursor: default;
+}
+h3{
+    cursor: default;
+    width: 150px;
+    position: relative;
+    right: 0%;
+    bottom: 49px;
+    overflow-wrap: normal;
+    font-size: 18px;
+}
+
+h3:focus, p:focus{
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+p{
+    cursor: default;
+    position: relative;
+    bottom: 43px;
+}
+.main-container{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: sticky;
+    top: 0; */
+}
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+#add{
+    margin: 12px;
+    font-size: 15px;
+    position: relative;
+    /* right: 12%; */
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    box-shadow: 2px 2px 20px black;
+    background-color: #543864;
+    color: white;
+    width: 10rem;
+}
+#add:hover{
+    box-shadow: 2px 2px 20px #543864;
+}
+#title{
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: -2px -2px 20px 4px #543864;
+    background-color: #f6e9e9;
+    color: black;
+}
+#title::placeholder{
+    color: black;
+}
+.text{
+    border: 2px solid navajowhite;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 35vw;
+    font-size: 18px;
+    background: rgba(0, 0, 0,0.3);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -2px -2px 20px 1px black;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+.note-section{
+    position: relative;
+    /* left: 70px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    height: 60vh;
+    /* justify-content: center; */
+    width: 97vw;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.notes{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 200px;
+    height: min-content;
+    margin: 30px;
+    box-shadow: 2px 2px 20px 2px black;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+.delNote{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    background-color: #942525;
+    color: white;
+}
+.delNote:hover{
+    box-shadow: 2px 2px 20px 1px #942525;
+}
+/* This Div Contains All the buttons below textarea */
+.btns{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    width: 50vw;
+}
+#deleteAll{
+    position: relative;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    background-color: #942525;
+    color: white;
+    font-size: 15px;
+    margin: 12px;
+    box-shadow: 2px 2px 20px black;
+    width: 10rem;
+}
+#deleteAll:hover{
+    box-shadow: 2px 2px 20px #942525;
+    
+}
+#search{
+    position: relative;
+    margin: 12px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a1a2e;
+    color: white;
+    box-shadow: 2px 2px 20px black;
+}
+::placeholder{
+    color: white;
+}
+#star{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    left: 83%;
+    height: 36px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
